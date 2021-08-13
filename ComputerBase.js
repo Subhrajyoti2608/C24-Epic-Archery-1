@@ -6,7 +6,7 @@ constructor(x,y,width,height){
     this.width = width;
     this.height = height;
     this.body=Bodies.rectangle(x, y, this.width, this.height, options);
-    this.ComputerBaseImage=loadImage("assets/base1.png")
+    this.ComputerBaseImage=loadImage("base1.png")
     World.add(world, this.body)
 }
 display() {
