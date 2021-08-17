@@ -6,7 +6,7 @@ class ComputerPlayer{
         this.width = width
         this.height = height
         this.body = Bodies.rectangle(x, y, this.width, this.height, options)
-        this.ComputerPlayerImage=loadImage("player.png")
+        this.ComputerPlayerImage=loadImage("assetes/player.png")
         World.add(world,this.body)
     }
     display() {

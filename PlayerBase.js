@@ -6,7 +6,7 @@ class PlayerBase{
     this.width = width
     this.height = height
     this.body = Bodies.rectangle(x, y, this.width, this.height, options)
-    this.PlayerBaseImage = loadImage("base2.png")
+    this.PlayerBaseImage = loadImage("assets/base2.png")
     World.add(world,this.body)
    } 
    display(){
